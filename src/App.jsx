@@ -1,13 +1,21 @@
-import './App.css'
-import Navbar from './assets/components/navbar/Navbar'
+import "./App.css";
+import Navbar from "./assets/components/navbar/Navbar";
+import PriceOptions from "./assets/components/priceOptions/PriceOptions";
 
 function App() {
-
   return (
-    <div className='p-6 bg-neutral-200 min-h-screen text-black/80' style={{fontFamily: "work sans"}}>
-      <Navbar></Navbar>
-    </div>
-  )
+    <>
+      <header
+        className="bg-neutral-200 min-h-screen text-black/80"
+        style={{ fontFamily: "work sans" }}
+      >
+        <Navbar></Navbar>
+      </header>
+      <main>
+        <PriceOptions></PriceOptions>
+      </main>
+    </>
+  );
 }
 
-export default App
+export default App;
