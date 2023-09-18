@@ -1,17 +1,21 @@
+import axios from "axios";
 import { useEffect, useState } from "react";
 import { LineChart, Line, XAxis, YAxis, Legend } from "recharts";
 
 const GymStats = () => {
   useEffect(() => {
-    fetch("./gymStats.json")
-      .then((res) => res.json())
-      .then((data) => setStats(data.customerSatisfactionData));
+    // fetch("./gymStats.json")
+    //   .then((res) => res.json())
+    //   .then((data) => setStats(data.customerSatisfactionData));
+
+    axios.get('./gymStats.json')
+    .then(data => setStats(data.data.customerSatisfactionData))
   }, []);
 
   const [stats, setStats] = useState([]);
 
   return (
-    <div>
+    <div className="lg:mt-20">
       <LineChart width={800} height={300} data={stats}>
         <XAxis dataKey="year" />
         <YAxis />
