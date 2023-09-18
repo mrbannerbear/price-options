@@ -1,0 +1,9 @@
+{
+    "customerSatisfactionData": [
+        { "year": 2020, "Your Gym": 65, "Competitor A": 60, "Competitor B": 55 },
+        { "year": 2021, "Your Gym": 75, "Competitor A": 70, "Competitor B": 65 },
+        { "year": 2022, "Your Gym": 80, "Competitor A": 75, "Competitor B": 70 }
+    ]
+  }
+
+  

@@ -1,4 +1,5 @@
 import "./App.css";
+import GymStats from "./assets/components/gymStats/gymStats";
 import Navbar from "./assets/components/navbar/Navbar";
 import PriceOptions from "./assets/components/priceOptions/PriceOptions";
 
@@ -13,6 +14,7 @@ function App() {
       </header>
       <main className="p-3 lg:px-12 md:py-5 text-black/80">
         <PriceOptions></PriceOptions>
+        <GymStats></GymStats>
       </main>
     </body>
   );
