@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Routes = () => {
   const routes = [
     { id: 1, path: "/", description: "Home" },
@@ -12,7 +14,7 @@ const Routes = () => {
           key={route.id}
           className="hover:transition-all hover:scale-x-105 border-b md:border-none"
         >
-          <a href={route.path}>{route.description}</a>
+          <Link to={route.path}>{route.description}</Link>
         </li>
       ))}
     </>

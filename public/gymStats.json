@@ -1,8 +1,8 @@
 {
     "customerSatisfactionData": [
-        { "year": 2020, "Your Gym": 65, "Competitor A": 60, "Competitor B": 55 },
-        { "year": 2021, "Your Gym": 75, "Competitor A": 70, "Competitor B": 65 },
-        { "year": 2022, "Your Gym": 80, "Competitor A": 75, "Competitor B": 70 }
+        { "year": 2020, "Gotham Central Gym": 55, "Competitor A": 60, "Competitor B": 55 },
+        { "year": 2021, "Gotham Central Gym": 64, "Competitor A": 68, "Competitor B": 60 },
+        { "year": 2022, "Gotham Central Gym": 73, "Competitor A": 72, "Competitor B": 70 }
     ]
   }
 

@@ -20,7 +20,7 @@ const GymStats = () => {
         <XAxis dataKey="year" />
         <YAxis />
         <Legend />
-        <Line type="monotone" dataKey="Your Gym" stroke="#8884d8" />
+        <Line type="monotone" dataKey="Gotham Central Gym" stroke="#8884d8" />
         <Line type="monotone" dataKey="Competitor A" stroke="#82ca9d" />
         <Line type="monotone" dataKey="Competitor B" stroke="#ffc658" />
       </LineChart>
