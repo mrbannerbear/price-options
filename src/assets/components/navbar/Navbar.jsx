@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="navbar-end pr-6">
         <button
           onClick={handleMenuBarClick}
-          className="md:hidden btn focus:ring-0 focus:transition-all focus:scale-105 relative"
+          className= "md:hidden btn focus:ring-0 focus:transition-all focus:scale-105 relative"
         >
           {menuBar === true ? (
             <i className="fa-solid fa-xmark"></i>
